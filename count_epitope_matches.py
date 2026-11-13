@@ -33,4 +33,4 @@ def count_epitopes_in_proteins(epitope_file, fasta_file, count_file):
     print(f"Results have been saved to {count_file}.")
 
 
-count_epitopes_in_proteins("epitopes.txt", "L2.fasta", "results.txt")
+count_epitopes_in_proteins("epitope_file.txt", "L1.fasta", "results.txt")
